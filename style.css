@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.table{
+  width: 20vw;
+  height: 28vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15vw;
+  left: 35vw;
+  
+}
+table{
+  border: solid 2px black;
+  border-collapse: collapse;
+  transform: scale(1.5);
+  
+}
+td{
+  border: solid 2px black;
+}
+
+.table table tr td input[type="text"]{
+  width: 18.3vw;
+  height: 60px;
+  text-align: right;
+  outline: none;
+  font-size: 30px;
+}
+
+ .table table tr td input[type="button"] {
+  width: 58px;
+  height: 53px;
+  font-size: 2vw;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px;
+  transition: all 0.3s ease;
+ }
+ .table table tr td input[type="button"]:hover{
+  background-color: aqua;
+  color: black;
+ }
